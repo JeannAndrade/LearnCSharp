@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "..\C# 3.0\LambdaExpressions\LambdaExpressions.csproj", "{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\C# 3.0\ExtensionMethods\ExtensionMethods.csproj", "{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVariables", "..\C# 3.0\ImplicitlyTypedLocalVariables\ImplicitlyTypedLocalVariables.csproj", "{D8F4C00B-A631-4F62-8877-DA6649232FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
