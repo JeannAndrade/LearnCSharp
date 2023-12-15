@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "..\C# 3.0\LambdaExpressions\LambdaExpressions.csproj", "{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "C# 3.0\LambdaExpressions\LambdaExpressions.csproj", "{B0E5117E-00E9-48A0-8A72-C24ACEF4BA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\C# 3.0\ExtensionMethods\ExtensionMethods.csproj", "{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "C# 3.0\ExtensionMethods\ExtensionMethods.csproj", "{C57D19B7-E705-4A9B-858D-F84C9BF07C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVariables", "..\C# 3.0\ImplicitlyTypedLocalVariables\ImplicitlyTypedLocalVariables.csproj", "{D8F4C00B-A631-4F62-8877-DA6649232FA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVariables", "C# 3.0\ImplicitlyTypedLocalVariables\ImplicitlyTypedLocalVariables.csproj", "{D8F4C00B-A631-4F62-8877-DA6649232FA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 3.0", "C# 3.0", "{551840D6-90B9-47F1-AB7F-CAED48D8ED5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryComprehensions", "C# 3.0\QueryComprehensions\QueryComprehensions.csproj", "{B360CAE3-B952-47F7-9376-73F320D7CE24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +34,12 @@ Global
 		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F4C00B-A631-4F62-8877-DA6649232FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B360CAE3-B952-47F7-9376-73F320D7CE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B360CAE3-B952-47F7-9376-73F320D7CE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B360CAE3-B952-47F7-9376-73F320D7CE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B360CAE3-B952-47F7-9376-73F320D7CE24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B360CAE3-B952-47F7-9376-73F320D7CE24} = {551840D6-90B9-47F1-AB7F-CAED48D8ED5B}
 	EndGlobalSection
 EndGlobal
